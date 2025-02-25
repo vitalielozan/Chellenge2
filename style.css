@@ -1,0 +1,95 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+* {
+  margin: 0;
+}
+body {
+  background-color: aquamarine;
+  margin: auto;
+  width: 50%;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+.hero img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.block-discription h1 {
+  margin: 35px 0 15px 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.block-time {
+  background-color: gainsboro;
+  padding: 15px;
+  margin-top: 20px;
+}
+.block-time h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  padding: 25px;
+  margin: 20px 20px;
+}
+
+li {
+  margin: 20px 45px;
+  list-style-type: disc;
+}
+.block-instructions li {
+  margin: 20px 45px;
+  list-style-type: decimal;
+}
+
+.block-time h2,
+.block-ingridients h2,
+.block-instructions h2,
+.block-nutrition h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: darkmagenta;
+}
+
+.block-ingridients,
+.block-instructions,
+.block-nutrition {
+  margin-top: 15px;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  margin-top: 25px;
+}
+td,
+th {
+  border-bottom: 1px dotted;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 844px) {
+  body {
+    background-color: #fff;
+    width: 100%;
+  }
+  .hero {
+    padding: 0;
+    border-radius: 0;
+  }
+  .hero img {
+    border-radius: 0;
+  }
+  .block-discription {
+    margin: 0 15px 0 15px;
+  }
+}
